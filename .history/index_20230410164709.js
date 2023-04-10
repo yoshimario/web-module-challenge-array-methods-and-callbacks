@@ -42,19 +42,8 @@ function getFinals(fifaData) {
     // Filter the data to find all matches with the "Final" stage
     const finalMatches = fifaData.filter(match => match.Stage === "Final");
 
-    // Map the finalMatches array to a new array of objects with the required data
-    const finalTeams = finalMatches.map(match => {
-        return {
-            "Year": match.Year,
-            "Home Team Name": match["Home Team Name"],
-            "Away Team Name": match["Away Team Name"],
-            "Home Team Goals": match["Home Team Goals"],
-            "Away Team Goals": match["Away Team Goals"]
-        }
-    });
-    // Return the finalTeams array
-    return finalTeams;
-}
+    // Map the finalMatches to return an array of objects with only the home team name, away team name, and the year of the match
+ }
 
 
 

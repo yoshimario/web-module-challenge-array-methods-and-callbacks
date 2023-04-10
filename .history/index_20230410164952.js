@@ -53,7 +53,7 @@ function getFinals(fifaData) {
         }
     });
     // Return the finalTeams array
-    return finalTeams;
+  return finalTeams;
 }
 
 

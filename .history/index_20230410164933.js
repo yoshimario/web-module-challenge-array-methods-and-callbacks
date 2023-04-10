@@ -52,8 +52,6 @@ function getFinals(fifaData) {
             "Away Team Goals": match["Away Team Goals"]
         }
     });
-    // Return the finalTeams array
-    return finalTeams;
 }
 
 

@@ -49,11 +49,7 @@ function getFinals(fifaData) {
             "Home Team Name": match["Home Team Name"],
             "Away Team Name": match["Away Team Name"],
             "Home Team Goals": match["Home Team Goals"],
-            "Away Team Goals": match["Away Team Goals"]
-        }
-    });
-    // Return the finalTeams array
-    return finalTeams;
+      "Away Team Goals": match["Away Team Goals"]
 }
 
 

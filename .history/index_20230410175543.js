@@ -45,7 +45,7 @@ function getFinals(data) {
     })
     return finalMatches;
 }
-console.log(getFinals(fifaData));
+console.log(getFinals(fifata));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀

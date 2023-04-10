@@ -43,9 +43,9 @@ function getFinals(data) {
     const finalMatches = data.filter(function(item) {
         return item.Stage === "Final";
     })
-    return finalMatches;
+    ret
 }
-console.log(getFinals(fifaData));
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀

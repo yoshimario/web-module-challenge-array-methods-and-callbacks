@@ -40,12 +40,9 @@ Use getFinals to do the following:
 
 function getFinals(data) {
     // Filter the data to find all matches with the "Final" stage
-    const finalMatches = data.filter(function(item) {
-        return item.Stage === "Final";
-    })
-    return finalMatches;
+    const finalMatches = data.filter(function(item)§
 }
-console.log(getFinals(fifaData));
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀

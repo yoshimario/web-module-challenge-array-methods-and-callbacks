@@ -21,13 +21,7 @@ console.log(finalMatch["Home Team Goals"]);
 //(d) Away Team goals for 2014 world cup final
 console.log(finalMatch["Away Team Goals"]);
 //(e) Winner of 2014 world cup final */
-if (finalMatch["Home Team Goals"] > finalMatch["Away Team Goals"]) {
-    console.log(finalMatch["Home Team Name"]);
-  } else if (finalMatch["Away Team Goals"] > finalMatch["Home Team Goals"]) {
-    console.log(finalMatch["Away Team Name"]);
-  } else {
-    console.log("The match was a draw.");
-  }
+if finalMatch.length >
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 

@@ -10,13 +10,10 @@ Practice accessing data by console.log-ing the following pieces of data note.
 const finalMatch = fifaData.filter(match => match.Year === 2014 && match.Stage === "Final")[0];
 
 //(a) Home Team name for 2014 world cup final
-console.log(finalMatch["Home Team Name"]);
 
 //(b) Away Team name for 2014 world cup final
-console.log(finalMatch["Away Team Name"]);
 
 //(c) Home Team goals for 2014 world cup final
-console.log(finalMatch["Home Team Goals"]);
 
 //(d) Away Team goals for 2014 world cup final
 

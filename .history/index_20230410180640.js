@@ -8,21 +8,20 @@ Practice accessing data by console.log-ing the following pieces of data note.
 💡 HINT: You may want to filter the data first 😉*/
 // Filter the data to find the match corresponding to the 2014 World Cup final
 const finalMatch = fifaData.filter(match => match.Year === 2014 && match.Stage === "Final")[0];
+console.log(finalMatch);
 
 //(a) Home Team name for 2014 world cup final
-console.log('Task 1a', finalMatch['Home Team Name']);
+console.log('Task 1a', finalMatch[0]["Home Team Name"]);
 
 //(b) Away Team name for 2014 world cup final
-console.log('Task 1b', finalMatch["Away Team Name"]);
+console.log('Task 1b', finalMatch[0]["Away Team Name"]);
 
 //(c) Home Team goals for 2014 world cup final
 console.log('Task 1c', finalMatch["Home Team Goals"]);
 
 //(d) Away Team goals for 2014 world cup final
-console.log('Task 1d', finalMatch["Away Team Goals"]);
-
+console.log(finalMatch["Away Team Goals"]);
 //(e) Winner of 2014 world cup final */
-console.log('Task 1e', finalMatch.Winner);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -49,10 +48,8 @@ Use the higher-order function called getYears to do the following:
 2. Receive a callback function as the second parameter that will take getFinals from task 2 as an argument
 3. Return an array called years containing all of the years in the getFinals data set*/
 
-function getYears(data, getFinals) {
-    const finals = getFinals(data);
-    const years = finals.map(final => final.Year);
-    return years;
+function getYears(/* code here */) {
+    /* code here */
 }
 
 

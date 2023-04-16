@@ -7,6 +7,7 @@ Practice accessing data by console.log-ing the following pieces of data note.
 
 💡 HINT: You may want to filter the data first 😉*/
 // Filter the data to find the match corresponding to the 2014 World Cup final
+// Filter the data to find the match corresponding to the 2014 World Cup final
 const finalMatch = fifaData.filter(match => match.Year === 2014 && match.Stage === "Final")[0];
 
 //(a) Home Team name for 2014 world cup final
@@ -49,10 +50,8 @@ Use the higher-order function called getYears to do the following:
 2. Receive a callback function as the second parameter that will take getFinals from task 2 as an argument
 3. Return an array called years containing all of the years in the getFinals data set*/
 
-function getYears(data, getFinals) {
-    const finals = getFinals(data);
-    const years = finals.map(final => final.Year);
-    return years;
+function getYears(/* code here */) {
+    /* code here */
 }
 
 

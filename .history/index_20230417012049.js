@@ -52,8 +52,8 @@ Use the higher-order function called getYears to do the following:
 function getYears(data, getFinals) {
     const finals = getFinals(data);
     const years = finals.map(final => final.Year);
-    return years;
-}
+    return years;}
+  
 
 
 

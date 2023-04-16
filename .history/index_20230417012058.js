@@ -54,6 +54,7 @@ function getYears(data, getFinals) {
     const years = finals.map(final => final.Year);
     return years;
 }
+  
 
 
 

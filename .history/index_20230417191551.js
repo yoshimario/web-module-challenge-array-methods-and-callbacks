@@ -40,7 +40,7 @@ function getFinals(data) {
     })
     return finalMatches;
 }
-console.log('Task 2',getFinals(fifaData));
+console.log(getFinals(fifaData));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -76,7 +76,7 @@ function getWinners(data, getFinals) {
     });
     return winners;
   }
-console.log('Task 4',getWinners(fifaData, getFinals));
+console.log
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 

@@ -40,7 +40,7 @@ function getFinals(data) {
     })
     return finalMatches;
 }
-console.log('Task 2',getFinals(fifaData));
+console.log(getFinals(fifaData));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -54,7 +54,7 @@ function getYears(data, getFinals) {
     const years = finals.map(final => final.Year);
     return years;
 }
-console.log('Task 3',getYears(fifaData, getFinals));
+console.log(TaskgetYears(fifaData, getFinals));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -76,7 +76,7 @@ function getWinners(data, getFinals) {
     });
     return winners;
   }
-console.log('Task 4',getWinners(fifaData, getFinals));
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -96,7 +96,7 @@ function getWinnersByYear(data, getFinals, getYears, getWinners) {
     const winners = getWinners(finals);
     return years.map((year, i) => `In ${year}, ${winners[i]} won the world cup!`);
   }
-console.log('Task 5',getWinnersByYear(fifaData, getFinals, getYears, getWinners));
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -120,7 +120,7 @@ function getAverageGoals(getFinals) {
     , 0) / getFinals.length;
     return averageHomeGoals.toFixed(2);
 }
-console.log('Task 6', getAverageGoals(getFinals(fifaData)));
+console.log('Task 6c', getAverageGoals(getFinals(fifaData)));
 
 
 /// 🥅 STRETCH 🥅 ///

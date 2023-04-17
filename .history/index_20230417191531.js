@@ -40,7 +40,7 @@ function getFinals(data) {
     })
     return finalMatches;
 }
-console.log('Task 2',getFinals(fifaData));
+console.log(getFinals(fifaData));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -76,7 +76,7 @@ function getWinners(data, getFinals) {
     });
     return winners;
   }
-console.log('Task 4',getWinners(fifaData, getFinals));
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -96,7 +96,7 @@ function getWinnersByYear(data, getFinals, getYears, getWinners) {
     const winners = getWinners(finals);
     return years.map((year, i) => `In ${year}, ${winners[i]} won the world cup!`);
   }
-console.log('Task 5',getWinnersByYear(fifaData, getFinals, getYears, getWinners));
+console.log(Task 5,getWinnersByYear(fifaData, getFinals, getYears, getWinners));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
